@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registation Page</title>
+</head>
+<body>
+<form method="post" action="../RegisterServlet">
+<h1 align="center">Registration Form</h1>
+<hr>
+<a href=pages/register.html>Register New User</a>	
+<table>
+	<tr>
+		<td>FirstName:</td>
+		<td><input type="text" name="firstName"></td>
+	</tr>
+	
+	<tr>
+		<td>LastName:</td>
+		<td><input type="text" name="lastName"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><input type="password" name="password"></td>
+	</tr>
+	<tr>
+		<td>EmailID:</td>
+		<td><input type="email" name="emailId"></td>
+	</tr>
+	<tr>
+		<td>Date Of birth:</td>
+		<td><input type="date" name="dob"></td>
+	</tr>
+	
+	<tr>
+		<td>Social Security number:</td>
+		<td><input type="text" name="ssn"></td>
+	</tr>
+	
+	<tr>
+		<td>HouseNumber:</td>
+		<td><input type="text" name="houseNumber"></td>
+	</tr>
+	
+	<tr>
+		<td>StreetName:</td>
+		<td>
+			<textarea rows="5" cols="20" name="streetName"></textarea>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>City:</td>
+		<td>
+			<select name="city">
+				<option value="Rosemont">Rosemont</option>
+				<option value="Chicago">Chicago</option>
+				<option value="NewYork">NewYork</option>
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>State:</td>
+		<td>
+			<input type="radio" name="state"  value="IL">IL
+			<input type="radio" name="state"  value="NA">NA
+			<input type="radio" name="state"  value="NYL">NY
+			<input type="radio" name="state"  value="AL">AL
+		</td>
+	</tr>
+	<tr>
+		<td>ZipCode:</td>
+		<td>
+			<input type="text" name="zipcode" size="20">
+		</td>
+		</tr>
+	<tr>
+		<td>Country:</td>
+		<td>
+			<select name="country">
+				<option value="USA">USA</option>
+				<option value="India">India</option>
+				<option value="Singapore">Singapore</option>
+				<option value="Asia">Asia</option>
+			</select>
+		</td>
+		</tr>
+		
+		<tr>
+		<td></td>
+			<td>
+				<button type="submit">Register</button>
+			</td>
+		</tr>
+
+</table>
+</form>
+</body>
+</html>

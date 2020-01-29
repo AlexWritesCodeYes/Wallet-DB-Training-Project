@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>INdex Page</title>
+
+<link rel="stylesheet" type="text/css" href="css/myStyles.css">
+</head>
+<body>
+
+<div id="mainCnt">
+<h1 align="center">Capg Wallet Application</h1>
+<hr>
+
+<a href=pages/register.html>If you are a new User. Please Register Click Here!!</a>
+
+<div id="para">
+	<p>
+		Hey! welcome to Capgemini e-wallet application. You can perform deposit, 
+		withdraw and fund transfer. Also you can check your balance immediately and 
+		get the transaction summary here.
+	</p>
+</div>
+<div id="loginform">
+	<form method="post" action="LoginServlet">
+		<table>
+			<tr>
+				<th colspan="3">Login Here</th>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="userName" size="20"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td>
+				<input type="password" name="userPwd" size="20">
+				<input type="hidden" name="email" value="capg@info.com">
+				
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit">Login</button>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="3"><div id="errmsg"></div></td>
+			</tr>
+		</table>
+
+	</form>
+
+
+
+</div>
+
+</div>
+</body>
+</html>
